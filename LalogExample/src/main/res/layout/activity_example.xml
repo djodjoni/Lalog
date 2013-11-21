@@ -1,0 +1,22 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Debug Log"
+        android:id="@+id/chkDebugLog"
+        android:onClick="updateLog"
+        android:checked="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkWELog"
+        android:text="Warning and Error Log"
+        android:onClick="updateLog"
+        android:checked="true" />
+</LinearLayout>
