@@ -1,6 +1,8 @@
 Lalog
 =====
 
+(Not supported anymore as all extra functionality is added now in: https://github.com/JakeWharton/timber)
+
 Light Android Log - easily log and manage different loggers like log4j but much more simplified. specifically done for android.
 
 _____
